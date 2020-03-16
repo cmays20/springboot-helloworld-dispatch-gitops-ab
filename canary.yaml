@@ -34,7 +34,7 @@ spec:
     match:
       - headers:
           user-agent:
-            regex: "^(?!.*Chrome).*Safari.*"
+            regex: ".*Safari.*"
       - headers:
           cookie:
             regex: "^(.*?;)?(type=insider)(;.*)?$"
